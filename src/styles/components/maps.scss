@@ -1,0 +1,80 @@
+.gamemode {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  width: 1440px;
+  gap: 10px;
+  flex-wrap: wrap;
+  h1 {
+    font-family: "Oswald", sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+  }
+  p {
+    font-family: "Kavit", sans-serif;
+    font-weight: 700;
+  }
+}
+
+.gamemode_type {
+  width: 500px;
+  background-color: #e1eaf5;
+  margin-bottom: 15px;
+  border: solid 2px white;
+  border-radius: 10px 10px 0 0;
+  cursor: pointer;
+  .icon {
+    width: 50px;
+    object-fit: cover;
+    background-color: #e4611c;
+    border-radius: 100%;
+  }
+}
+
+.screenshot {
+  height: 400px;
+  width: 100%;
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+  }
+}
+.details {
+  display: flex;
+  padding: 10px;
+  margin-top: 5px;
+  gap: 10px;
+}
+.gamemode_description {
+  padding: 10px;
+}
+
+@media (min-width: 360px) and (max-width: 768px) {
+  .gamemode {
+    width: 330px;
+  }
+  .gamemode_type {
+    width: 340px;
+  }
+  .screenshot {
+    width: 100%;
+    height: 200px;
+  }
+}
+
+@media (min-width: 799px) and (max-width: 800px) {
+  .gamemode {
+    width: 799px;
+  }
+  .gamemode_type {
+    width: 500px;
+  }
+  .screenshot {
+    width: 100%;
+    height: 300px;
+  }
+}

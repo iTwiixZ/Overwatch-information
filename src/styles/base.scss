@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;700&family=Oswald:wght@400;700&family=Roboto:wght@400;700&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs'  preserveAspectRatio='true' viewBox='0 0 1440 700'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1191%26quot%3b)' fill='none'%3e%3crect width='1440' height='700' x='0' y='0' fill='rgba(159%2c 174%2c 196%2c 1)'%3e%3c/rect%3e%3cpath d='M-28.42240993620019 328.75313025127844L-115.31694553756947 467.8134559591365 23.743380170288624 554.7079915605058 110.6379157716579 415.6476658526477z' fill='rgba(150%2c 164%2c 187%2c 1)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M661.2541917232224 244.9218111380008L650.7908511270432 45.26937901204889 451.1384190010913 55.73271960822814 461.60175959727053 255.38515173418006z' fill='rgba(150%2c 164%2c 187%2c 1)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M1052.0602415670455 167.34045657908214L1079.7253613727314-7.33023549773435 905.054669295915-34.995355303420325 877.389549490229 139.67533677339617z' fill='rgba(150%2c 164%2c 187%2c 1)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M347.4585182409703 71.38707063888836L239.07944672438526 153.0565589265914 320.7489350120883 261.4356304431765 429.1280065286734 179.7661421554734z' fill='rgba(150%2c 164%2c 187%2c 1)' class='triangle-float3'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1191'%3e%3crect width='1440' height='700' fill='white'%3e%3c/rect%3e%3c/mask%3e%3cstyle%3e %40keyframes float1 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-10px%2c 0)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float1 %7b animation: float1 5s infinite%3b %7d %40keyframes float2 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-5px%2c -5px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float2 %7b animation: float2 4s infinite%3b %7d %40keyframes float3 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(0%2c -10px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float3 %7b animation: float3 6s infinite%3b %7d %3c/style%3e%3c/defs%3e%3c/svg%3e");
+  background-size: cover;
+}
+
+//responsive
+@media (min-width: 360px) and (max-width: 800px) {
+  html,
+  body {
+    overflow-x: hidden;
+  }
+  body {
+    position: relative;
+  }
+}

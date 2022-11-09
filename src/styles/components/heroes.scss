@@ -1,0 +1,74 @@
+.hero_profile {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  padding: 2px;
+  background-color: #e1eaf5;
+  border: solid 2px white;
+  text-align: center;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all ease-in 100ms;
+  &:hover {
+    transform: scale(1.05);
+  }
+  p {
+    padding: 10px;
+    font-family: "Kavit", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    text-transform: uppercase;
+  }
+  img {
+    border-radius: 10px 10px 0 0;
+  }
+}
+
+.heros_container {
+  margin-top: 50px;
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 1440px;
+  margin-bottom: 15px;
+}
+
+.role_container {
+  display: flex;
+  width: 1440px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+//Responsive
+@media (min-width: 360px) and (max-width: 768px) {
+  .heros_container {
+    width: 330px;
+    gap: 5px;
+    align-items: center;
+  }
+  .hero_profile {
+    width: 150px;
+    p {
+      font-size: 15px;
+      text-align: center;
+    }
+  }
+}
+@media (min-width: 799px) and (max-width: 800px) {
+  .heros_container {
+    width: 800px;
+    min-height: 100vh;
+    gap: 5px;
+    align-items: center;
+  }
+  .hero_profile {
+    width: 170px;
+    p {
+      font-size: 16px;
+      text-align: center;
+    }
+  }
+}
