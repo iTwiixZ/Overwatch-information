@@ -1,3 +1,4 @@
+#Remplacer la contenu de "homepage" dans le fichier package.json par votre localhost personnel.
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
